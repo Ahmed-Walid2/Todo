@@ -1,0 +1,39 @@
+.bg-color {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #153677, #4e085f);
+}
+
+.closeBtn {
+  cursor: pointer;
+}
+
+.todo-app {
+  max-width: 550px;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.todo-app .h4 {
+  color: #002765;
+}
+
+.todo-app li label {
+  color: #002765c9;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.checked {
+  color: #bf2020;
+  text-decoration: line-through;
+}
+
+i {
+  color: #002765;
+}
+
+.break {
+  word-break: break-all;
+}

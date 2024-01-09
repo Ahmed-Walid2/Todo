@@ -51,6 +51,7 @@ function display(list) {
         type="checkbox"
         class="item"
         data-id="${element._id}"
+        ${element.completed ? "checked" : ""}
       />
       <label class="break me-5 ${
         element.completed ? "text-decoration-line-through" : ""

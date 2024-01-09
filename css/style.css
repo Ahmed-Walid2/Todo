@@ -37,3 +37,7 @@ i {
 .break {
   word-break: break-all;
 }
+
+.input {
+  :checked ;
+}
